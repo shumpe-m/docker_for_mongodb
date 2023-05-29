@@ -1,5 +1,5 @@
 docker run --gpus all --rm -it --ipc host \
-    --network mongodb-network \
+    --net host \
     --volume="/dev:/dev" \
     --privileged \
     -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY \
