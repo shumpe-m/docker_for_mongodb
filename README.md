@@ -2,9 +2,7 @@
 
 build.sh -> run.sh
 
-sbin/initで起動。
-
-exec でコンテナ内に入る。
+```docker exec ... bash ```でコンテナ内に入る。
 
 mongodb起動
 
